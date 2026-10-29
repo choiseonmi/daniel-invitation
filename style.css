@@ -95,3 +95,6 @@
 .tiny-flourish,.verse-rule{display:block;width:34px;height:12px;margin:12px auto 13px;position:relative;color:transparent;font-size:0}
 .tiny-flourish::after,.verse-rule::after{content:"";position:absolute;top:5px;left:12px;width:10px;height:1px;background:#b89a68;box-shadow:-9px 0 0 -0.1px #b89a68,9px 0 0 -0.1px #b89a68}
 .verse-rule{margin:0 auto 13px}
+
+/* Ordination verse label — editorial style kept */
+.verse-label{margin:0 0 9px;font-size:13px;letter-spacing:.12em;color:#a2824f;font-weight:600}.intro .signature,.farewell .signature{line-height:1.9;overflow-wrap:keep-all;word-break:keep-all}
