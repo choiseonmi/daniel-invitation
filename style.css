@@ -83,3 +83,15 @@
 .gold-cross::after{height:2px;width:17px;left:1.5px;top:9px}
 .yt-icon{display:inline-flex;vertical-align:-2px;align-items:center;justify-content:center;width:19px;height:14px;margin-right:7px;background:#e73834;border-radius:4px;font-size:0;line-height:0;color:transparent;flex:none}
 .yt-icon::after{content:"";display:block;width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid #fff;margin-left:2px}
+
+/* Native SVG icons avoid OS-specific emoji replacement */
+.ui-icon{display:inline-block;width:18px;height:18px;vertical-align:-3px;flex-shrink:0;color:inherit}
+.event-svg{width:17px;height:17px;color:#77917e;vertical-align:-3px;margin-right:7px}
+.primary .event-svg{color:#577b65}
+.action .ui-icon{vertical-align:-4px;width:17px;height:17px}
+.chevron .ui-icon{width:19px;height:19px;color:#fff}
+.scroll-hint .ui-icon{width:16px;height:16px;display:block;margin:auto}
+.backtop .top-icon{width:23px;height:23px;vertical-align:middle}
+.tiny-flourish,.verse-rule{display:block;width:34px;height:12px;margin:12px auto 13px;position:relative;color:transparent;font-size:0}
+.tiny-flourish::after,.verse-rule::after{content:"";position:absolute;top:5px;left:12px;width:10px;height:1px;background:#b89a68;box-shadow:-9px 0 0 -0.1px #b89a68,9px 0 0 -0.1px #b89a68}
+.verse-rule{margin:0 auto 13px}
