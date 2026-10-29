@@ -75,3 +75,11 @@
 @media(prefers-reduced-motion:reduce){.scroll-hint{animation:none}.event-card{transition:none}}
 
 
+
+/* Consistent on iOS/Android: CSS icons, not colorful Unicode emoji. */
+.gold-cross{display:block;position:relative;width:20px;height:29px;margin:0 auto 13px;font-size:0;line-height:0;color:transparent;flex:none}
+.gold-cross::before,.gold-cross::after{content:"";position:absolute;display:block;background:#ba9658;border-radius:1px}
+.gold-cross::before{width:2px;height:27px;left:9px;top:1px}
+.gold-cross::after{height:2px;width:17px;left:1.5px;top:9px}
+.yt-icon{display:inline-flex;vertical-align:-2px;align-items:center;justify-content:center;width:19px;height:14px;margin-right:7px;background:#e73834;border-radius:4px;font-size:0;line-height:0;color:transparent;flex:none}
+.yt-icon::after{content:"";display:block;width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid #fff;margin-left:2px}
